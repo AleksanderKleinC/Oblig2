@@ -1,0 +1,228 @@
+body {
+	background-image: url("../images/jared-rice-408404-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	}
+
+body {
+	text-align: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	}
+	
+header h1 {
+	max-width: 100%;
+	text-transform: uppercase;
+	font-style: italic;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: space-evenly;
+	margin: 50px auto 0px auto;
+	background-image: url("../images/snow-unsplash-1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	}
+	
+header h1 a {
+	text-decoration: none;
+	color: black;
+	font-size: 50px;
+	}
+	
+header h1 a:hover {
+	color: forestgreen;
+	}
+
+#topnav ul {
+    list-style: none;
+    margin: 20px auto 10px auto;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	grid-column-gap: 1px;
+	justify-content: center;
+	padding: 25px 20px;
+	}
+
+#topnav ul li a {
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+	text-transform: uppercase;
+	font-style: italic;
+	}
+
+#topnav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border-bottom: 4px solid red;
+	}
+	
+body #hovedkolonne {
+	background-color: rgba(255, 255, 255, 0.9);
+	max-width: 100%;
+	padding: 10px 0px 40px 0px;
+	margin: 20px auto 20px auto;	
+	}
+	
+#hovedkolonne {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	}
+	
+section h2 {
+	text-transform: uppercase;
+	font-style: italic;
+	}
+	
+section figure img {
+	max-width: 250px;
+	}
+	
+section figure img:hover {
+	-webkit-mask-image: linear-gradient(to bottom, transparent 5%, white 100%);
+	mask-image: linear-gradient(to bottom, transparent 5%, white 100%);
+	}
+	
+section figure figcaption {
+	font-style: italic;
+	}
+	
+section a {
+	background-color: rgb(255, 255, 255);
+	padding: 10px 40px;
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	}
+	
+section a:hover {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid red;
+	}
+	
+section p {
+	max-width: 250px;
+	text-align: center;
+	margin: 0 auto 25px auto;
+	}
+	
+body article {
+	max-width: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+	margin: 20px 0px;
+	}
+	
+body article figure img {
+	max-width: 100%;
+	max-height: 400px;
+	margin: 20px 0px 5px 0px;
+	}
+	
+body article figure img:hover {
+	-webkit-mask-image: linear-gradient(to bottom, transparent 15%, white 100%);
+	mask-image: linear-gradient(to bottom, transparent 15%, white 100%);
+	}
+	
+body article figure figcaption {
+	font-style: italic;
+	padding: 0px 0px 5px 0px;
+	}
+	
+body article header h2 {
+	text-transform: uppercase;
+	font-style: italic;
+	}
+	
+body article p {
+	max-width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px 0px 20px 0px;
+	}
+	
+#sidenav {
+	position: fixed;
+	text-align: right;
+	max-width: 300px;
+	padding: 25px;
+	margin: -578px auto 800px 1000px;
+	float: right;
+	}
+
+#sidenav ul {
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 410px;
+	padding: 10px 0px 10px 5px;
+	}
+	
+#sidenav ul li {
+	list-style: none;
+	max-width: 100%;
+	margin-top: 5px;
+	}
+	
+#sidenav ul li h3 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-style: italic;
+	padding: 5px 15px 5px 5px;
+	background-color: rgb(255, 255, 255);
+	max-width: 100%;
+	}
+	
+#sidenav ul li iframe {
+	margin: 0 auto;
+	padding-right: 6px;
+	}
+	
+#sidenav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: forestgreen;
+	font-style: italic;
+	font-size: 12px;
+	background-color: rgb(255, 255, 255);
+	max-width: 100%;
+	margin-top: 10px;
+	padding: 5px 15px 5px 5px;
+	}
+	
+#sidenav ul li a:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: red;
+	border-bottom: 2px solid red;
+	}
+	
+footer {
+	background-color: rgba(255, 255, 255, 0.8);
+	max-width: 100%;
+	margin: 10px auto 0px auto;
+	text-transform: uppercase;
+	padding: 5px 0px;
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: space-evenly;
+	}
+	
+footer p a {
+	text-decoration: none;
+	color: forestgreen;
+	font-style: italic;
+	}
+	
+footer p a:hover {
+	color: red;
+	border-bottom: 2px solid red;
+	}
